@@ -1,0 +1,783 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mpay | Make Payments</title>
+  <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="./css/site.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--Navigation bar-->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top content">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./images/Logo.png" alt="" width="50" class="d-inline-block align-text-top img-fluid">
+        Mpay
+      </a>
+      <hr />
+      <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span type="button" class="btn-close my-1 mx-2 close"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#whyus">Why Mpay</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#howitworks">How It Works</a>
+          </li>
+
+        </ul>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resources">Resources</a>
+          </li>
+        </ul>
+        <a class="nav-link" href="#startnow"><button class="btn-download">Start Now</button></a>
+      </div>
+    </div>
+  </nav>
+  </div>
+  <!--Hero section-->
+  <div class="container" id="hero-section">
+    <div class="row">
+      <div class="col-md-6 mt-5 py-md-5 padding-right-fix hero">
+        <h1>Make & receive payments with just your mobile phone</h1>
+        <p class="summary py">A complete pos solution for small, medium and large scale business. Seamless payment
+          experience with card and bank account.</p>
+
+        <div class="row">
+          <div class="col-auto">
+            <div class="row">
+              <div class="col-6">
+                <a href=""><img src="./images/googleplay.png" class="img-fluid img-button-hero" alt="google play icon"></a>
+              </div>
+              <div class="col-6">
+                <a href=""><img src="./images/appstore.png" class="img-fluid img-button-hero" alt="Apple store icon"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-auto">
+            <a class="mt-5"><button class="contact-button">or Contact us</button></a>
+          </div>
+
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 mt-5 pt-md-5">
+            <p class="small"><b>Our partners in Africa</b></p>
+            <div class="row">
+              <div class="col-auto">
+                <img class="img-fluid hero-logo" src="./images/mek_logo.png" />
+              </div>
+              <div class="col-auto">
+                Partner logo
+              </div>
+              <div class="col-auto">
+                partner logo
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-md-6 padding-left-fix map d-none d-md-block">
+        <div class="popup">
+        <div class="row fa-pull-right mt-5">
+          <div class="toast-body">
+            <div class="small">
+            Use mpay in multiple <b class="popup-note">African Countries.</b><br>
+            <b class="summary popup-message">Make & receive payments, pay bills <br>
+            in multiple African countries</b>
+          </div>
+           </div>
+        </div>
+        <div class="row mt-5 pt-5">
+          <div class="toast-body mt-5 pt-5 p-5">
+            <div class="pt-4 small">
+            Make & receive payments in <b class="popup-note">Nigeria.</b><br>
+            <b class="summary popup-message">Local transactions with card <br>
+            and bank account payments</b>
+          </div>
+           </div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+
+  </div>
+  <!--Features section-->
+  <div class="section2" id="whyus">
+    <div class="container-fluid pt-5">
+      <div class="container pt-lg-5">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>
+              Why choose us?</h2>
+            <p class="summary">We simplify the payment process, so you can focus on growing your business.</p>
+            <img src="./images/placeholder.png" class="img-fluid pt-5" />
+          </div>
+          <div class="col-md-6 pt-5 p-lg-5">
+            <div class="pt-5">
+              <h3 class="pt-lg-3">Exceed your customers' expectations with smooth payment experience</h3>
+              <p class="summary">Simplify your customers' payment experience with Mpay. Install it once and allow your
+                customers to pay you using their preferred method.</p>
+              <h3 class="pt-4">Outstounding success rate for all of your transactions</h3>
+              <p class="summary pt-3">
+                By utilizing the most optimal payment channels, our system ensures unparalleled transaction success
+                rates
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+<!--Why Mpay-->
+    <div id="features" class="container-fluid pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Features</h3>
+            <p class="summary pt-3">
+              Our platform is committed to providing easy and seamless payment solutions that meet the needs of
+              businesses and individuals. With our innovative technology, you can manage all your financial transactions
+              from a single device, saving you time and effort. With the Mpay app, you can easily do the following:
+            </p>
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="page-list">
+                  <li>Card payment:</li>
+                  <blockquote>Collect card payment / make payment with your credit/debit card</blockquote>
+                  <li>Account linking:</li>
+                  <blockquote>Connect your bank accounts to the app to perform transactions directly from </blockquote>
+                  <li>Balance Check:</li>
+                  <blockquote>Check account balance of all your accounts </blockquote>
+                  <li>History:</li>
+                  <blockquote>Get your transaction history of all you accounts</blockquote>
+                  <li>Transfer:</li>
+                  <blockquote>Transfer to any bank account from your bank account</blockquote>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="page-list">
+                  <li>Card Scanning:</li>
+                  <blockquote>Easily scan a card with your phone camera to perform transaction on the card</blockquote>
+                  <li>USD Card issuing:</li>
+                  <blockquote>Get a USD card for international payments from your Naira account</blockquote>
+                  <li>Naira conversion:</li>
+                  <blockquote> Convert naira to Dollar</blockquote>
+                  <li> Pay bills:</li>
+                  <blockquote>Pay for your television subsctriptions(GOTV and DSTV) and electricity bills in a few
+                    clicks</blockquote>
+                  <li>Buy Airtime / Data bundles:</li>
+                  <blockquote>Quikly top up your airtime and data bundles whenever you need to</blockquote>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="./images/placeholder.png" class="img-fluid pt-5" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid pt-5">
+      <div class="container pt-lg-5">
+        <div class="row">
+          <div class="col-md-6 d-none d-md-block">
+            <img src="./images/placeholder.png" class="img-fluid pt-5" />
+          </div>
+          <div class="col-md-6 p-lg-5">
+            <h3>Feel confident with our platform's fraud detection capabilities.</h3>
+            <p class="summary py-3">Protect yourself from fraudulent transactions and chargeback claims with Mpay's
+              combination of automated and manual fraud systems.</p>
+            <h3>Comprehensive reporting for accounting, reconciliation, and audits</h3>
+            <p class="summary py-3">
+              Understand your customers’ purchase patterns and do easy reconciliations with a robust data Dashboard
+              and easy exports.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--User types section-->
+  <div class="container-fluid section3 py-5">
+    <div class="container py-lg-5">
+      <div class="row pt-lg-5">
+        <div class="col-md-6">
+          <h2>Trusted by 80,000+ businesses</h2>
+          <p class="summary py-3">Thousands of organizations of all sizes trust Mpay to grow their business.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 py-3">
+          <div class="card h-100">
+            <div class="card-body p-5">
+              <div class="row">
+                <div class="col-4">
+                  <img src="./images/placeholder.png" class="img-fluid">
+                </div>
+              </div>
+              <h4 class="py-3">Mpay for <br />Global Brands</h4>
+              <p class="py-2 fw-normal">
+                We help global brands accept payments from across Africa
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3">
+          <div class="card h-100">
+            <div class="card-body p-5">
+              <div class="row">
+                <div class="col-4">
+                  <img src="./images/placeholder.png" class="img-fluid">
+                </div>
+              </div>
+              <h4 class="py-3">Mpay for <br />
+                Entrepreneurs</h4>
+              <p class="py-2 fw-normal">
+                From startup to scale-up, we can support you at every stage of your businesses’ growth
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3">
+          <div class="card h-100">
+            <div class="card-body p-5">
+              <div class="row">
+                <div class="col-4">
+                  <img src="./images/placeholder.png" class="img-fluid">
+                </div>
+              </div>
+              <h4 class="py-3">Mpay for <br />
+                Large Organizations</h4>
+              <p class="py-2 fw-normal">
+                Mpay helps many of the largest corporate and government organizations in Nigeria get paid quickly and
+                securely.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--How it works section-->
+  <div id="howitworks" class="container-fluid section4 py-5">
+    <div class="container py-lg-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>How it works</h2>
+          <p class="summary py-3">
+            To make payment from any bank card or account, link your card and account. You can link unlimited numbers of
+            cards and bank accounts.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="./images/placeholder.png" class="img-rounded img-fluid" alt="make and recieve payments">
+        </div>
+        <div class="col-lg-6 py-3">
+          <h4 class="text-center text-md-start">Make payment for Goods/services </h4>
+          <ul class="step-list">
+            <li>Click on transfer to perform charges from the card or account to a different account</li>
+            <li>Enter amount, enter authorization pin</li>
+            <li>Click proceed, enter card pin/account pin to authorize transfer</li>
+          </ul>
+          <h4 class="py-3 text-center text-md-start">Receive payment for Goods/Services</h4>
+          <ul class="step-list">
+            <li>Click on transfer to perform charges from the card or account to a different account</li>
+            <li>Enter amount, enter authorization pin</li>
+            <li>Click proceed, enter card pin/account pin to authorize transfer</li>
+          </ul>
+        </div>
+        <div class="row py-3">
+          <div class="col-lg-6">
+            <img src="./images/placeholder.png" class="img-rounded img-fluid" alt="make and recieve payments">
+          </div>
+          <div class="col-lg-6 py-3">
+            <h4 class="text-center text-md-start">How to charge customer’s card </h4>
+            <ul class="step-list">
+              <li> Click on card scanner – to scan customer’s card </li>
+              <li>Enter amount to charge customer </li>
+              <li>Enter customer’s card pin to authorize payment</li>
+            </ul>
+            <h4 class="py-3 text-center text-md-start">How to charge customer’s bank account </h4>
+            <ul class="step-list">
+              <li>Click on charge bank. </li>
+              <li> Enter amount</li>
+              <li>Enter customer’s account details </li>
+              <li>Enter vendor’s authorization pin </li>
+              <li>Enter customer’s account PIN/OTP to authorize transaction</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row py-3">
+          <div class="col-lg-6">
+            <img src="./images/placeholder.png" class="img-rounded img-fluid" alt="make and recieve payments">
+          </div>
+          <div class="col-lg-6 py-3">
+            <h4 class="text-center text-md-start">Check balance </h4>
+            <ul class="step-list">
+              <li>Click on balance </li>
+              <li>Enter authorization pin </li>
+            </ul>
+            <h4 class="py-3 text-center text-md-start">Check bank account history</h4>
+            <ul class="step-list">
+              <li>Click on transaction/history</li>
+              <li>Enter authorization pin </li>
+              <li>Enter bank account pin(optional)  </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--Testimonials section-->
+  <div id="testimonials" class="container-fluid section5 py-5">
+    <div class="container py-lg-5">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Backed by strong global partners</h2>
+          <p class="summary py-2">
+            Mpay is backed by notable investors as well as some of the best payments companies on the planet.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 py-3">
+          <div class="card h-100">
+            <div class="card-body p-5">
+              <div class="row">
+                <div class="col-4">
+                  <img src="./images/placeholder.png" class="img-fluid">
+                </div>
+              </div>
+              <p class="py-2 fw-normal summary">
+                Mpay is highly technical and fanatically customer oriented. We’re excited to back such people in one
+                of the world’s fastest-growing regions.
+              </p>
+              <div class="row">
+                <div class="col-2">
+                  <img src="./images/placeholder.png" alt="testimonail photo" class="img-fluid img-rounded">
+                </div>
+                <div class="col-10">
+                  <h5 class="fw-bolder p-0">Patrick Collison</h5>
+                  <p class="fw-lighter small p-0">
+                    CEO, Stripe
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3">
+          <div class="card h-100">
+            <div class="card-body p-5">
+              <div class="row">
+                <div class="col-4">
+                  <img src="./images/placeholder.png" class="img-fluid">
+                </div>
+              </div>
+              <p class="py-2 fw-normal summary">
+                Our investment in Mpay aligns with the kind of investments we look for - those that will help extend
+                our reach into the global commerce ecosystem </p>
+              <div class="row">
+                <div class="col-2">
+                  <img src="./images/placeholder.png" alt="testimonail photo" class="img-fluid img-rounded">
+                </div>
+                <div class="col-10">
+                  <h5 class="fw-bolder p-0">Otto Williams</h5>
+                  <p class="fw-lighter small p-0">
+                    Head of Strategic Partnerships, Fintech & Ventures CEMEA, Visa
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3">
+          <div class="card h-100">
+            <div class="card-body p-5">
+              <div class="row">
+                <div class="col-4">
+                  <img src="./images/placeholder.png" class="img-fluid">
+                </div>
+              </div>
+              <p class="py-2 fw-normal summary">
+                As YC's first Nigerian startup Mpay leads the charge of great companies coming out of Africa, powering
+                modern payments for an entire continent. </p>
+              <div class="row">
+                <div class="col-2">
+                  <img src="./images/placeholder.png" alt="testimonail photo" class="img-fluid img-rounded">
+                </div>
+                <div class="col-10">
+                  <h5 class="fw-bolder p-0">Michael Seibel</h5>
+                  <p class="fw-lighter small p-0">
+                    CEO, Partner, Y Combinator
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Action card-->
+  <div id="startnow" class="container-fluid section6 py-5">
+    <div class="container py-lg-5">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="summary">Try Mpay Now</p>
+          <h2 class="py-2">
+            Start accepting payments in just 30 minutes
+          </h2>
+        </div>
+        <div class="col-md-6 text-center pt-md-5 p-5">
+          <div class="row">
+            <div class="col-6 py-3">
+              <a href=""><img src="./images/googleplay.png" class="img-fluid img-button" alt="google play icon"></a>
+            </div>
+            <div class="col-6 py-3">
+              <a href=""><img src="./images/appstore.png" class="img-fluid img-button" alt="Apple store icon"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Desktop resources section-->
+  <div id="resources" class="container-fluid section6 pt-5 d-none d-md-block">
+    <div class="container pt-lg-5">
+      <div class=" row">
+        <div class="col-12 col-md-4 col-lg-3">
+          <ul class="footer-list">
+            <h5>Why Mpay</h5>
+            <li>Why Choose Mpay</li>
+            <li>Success Rates</li>
+            <li class="pt-3">For Entrepreneurs</li>
+            <li>For Corporates</li>
+            <li>For International Companies</li>
+            <li>For Startups</li>
+            <li class="pt-3">For Fintechs</li>
+            <li>For Schools</li>
+            <li>For Betting</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3">
+          <ul class="footer-list">
+            <h5>Pricing</h5>
+            <li>Nigeria</li>
+            <li>South Africa</li>
+            <h5 class="pt-3">Customers</h5>
+            <li>Testimonials</li>
+            <h5 class="pt-3">Learn</h5>
+            <li>Blog</li>
+            <li>Guides</li>
+            <li>Video Tutorial</li>
+            <li>Decode Fintech</li>
+            <li>Commerce</li>
+            <li>Terminal</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3">
+          <ul class="footer-list">
+            <h5>Developers</h5>
+            <li>Overview</li>
+            <li>Documentation</li>
+            <li>Integrations</li>
+            <li>Status Page</li>
+            <h5 class="pt-3">Community</h5>
+            <li>Nigeria Logos</li>
+            <h5 class="pt-3">Support</h5>
+            <li>Help Desk</li>
+            <li>Contact Us</li>
+            <li>Why Was I Debited?</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3">
+          <ul class="footer-list">
+            <h5>About</h5>
+            <li>Company</li>
+            <li>Subscribe</li>
+            <li>Compliance</li>
+            <li>Careers</li>
+            <li>Media Kit</li>
+            <li>Privacy & Terms</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Mobile resources section-->
+  <div class="container-fluid section6 d-md-none py-3">
+    <div class="container py-lg-5">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h5 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Why Mpay
+            </button>
+          </h5>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <ul class="footer-list-mobile">
+              <li>Why Choose Mpay</li>
+              <li>Success Rates</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h5 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseOne">
+              Pricing
+            </button>
+          </h5>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <ul class="footer-list-mobile">
+              <li>Nigeria</li>
+              <li>Ghana</li>
+              <li>South Africa</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h5 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseOne">
+              Customers
+            </button>
+          </h5>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <ul class="footer-list-mobile">
+              <li>Testimonials</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h5 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">
+              Learn
+            </button>
+          </h5>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <ul class="footer-list-mobile">
+              <li>Blog</li>
+              <li>Guides</li>
+              <li>Video Tutorial</li>
+              <li>Decode Fintech</li>
+              <li>Commerce</li>
+              <li>Terminal</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h5 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseOne">
+              Developer
+            </button>
+          </h5>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <ul class="footer-list-mobile">
+              <li>Overview</li>
+              <li>Documentation</li>
+              <li>Integrations</li>
+              <li>Status Page</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h5 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseOne">
+              Community
+            </button>
+          </h5>
+          <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <ul class="footer-list-mobile">
+              <li>Nigeria Logos</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h5 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseOne">
+              Support
+            </button>
+          </h5>
+          <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <ul class="footer-list-mobile">
+              <li>Help Desk</li>
+              <li>Contact Us</li>
+              <li>Who Was Debited?</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h5 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseOne">
+              About
+            </button>
+          </h5>
+          <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <ul class="footer-list-mobile">
+              <li>Company</li>
+              <li>Subscribe</li>
+              <li>Compliance</li>
+              <li>Careers</li>
+              <li>Media Kit</li>
+              <li>Privacy & Terms</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Footer section-->
+  <div class="container-fluid section6">
+
+    <div class="container py-lg-5">
+
+      <div class="row">
+        <hr>
+        <div class="col-md-3 pt-md-4">
+          <div class=" row">
+            <div class="col-12 col-md-4 col-lg-3">
+              <ul class="footer-list">
+                <h5>Contact</h5>
+                <li class="small">support@pay.meklint.com</li>
+
+              </ul>
+            </div>
+            <div class="col-12">
+              <div class="row pb-3">
+                <div class="col-auto">
+                  <i class="fa-brands fa-square-facebook fa-2x"></i>
+                </div>
+                <div class="col-auto">
+                  <i class="fa-brands fa-twitter fa-2x"></i>
+                </div>
+                <div class="col-auto">
+                  <i class="fa-brands fa-instagram fa-2x"></i>
+                </div>
+                <div class="col-auto">
+                  <i class="fa-brands fa-linkedin fa-2x"></i>
+                </div>
+                <div class="col-auto">
+                  <i class="fa-brands fa-square-youtube fa-2x"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9 pt-md-4">
+          <div class=" row">
+            <div class="col-12 col-md-4">
+              <ul class="footer-list">
+                <h5>Lagos</h5>
+                <li>126 Joel Ogunnaike Street,
+                  Ikeja GRA, Ikeja,
+                  Lagos, Nigeria</li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-4">
+              <ul class="footer-list">
+                <h5>San Francisco</h5>
+                <li>354 Oyster Point Blvd.,
+                  South San Francisco,
+                  CA 94080
+                  United States</li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-4">
+              <ul class="footer-list">
+                <h5>Cape Town</h5>
+                <li>Wework (1st Floor),
+                  80 Strand Street,
+                  Cape Town City Centre,
+                  Cape Town, 8001,
+                  South Africa</li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-4">
+              <ul class="footer-list">
+                <h5>Accra</h5>
+                <li>AfricaWorks,
+                  35 Patrice Lumumba Road,
+                  Airport Residential Area,
+                  Accra, Ghana</li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-4">
+              <ul class="footer-list">
+                <h5>Dubai</h5>
+                <li>Office 215,
+                  Building 3,
+                  Dubai Internet City, Dubai,
+                  United Arab Emirates</li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-4">
+              <ul class="footer-list">
+                <h5>Johannesburg</h5>
+                <li>45 Kingfisher Drive,
+                  Fourways,
+                  Johannesburg,
+                  South Africa</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
